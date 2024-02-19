@@ -14,9 +14,12 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
     <article>
       <SectionHeading icon={faIdCard} level={3} text="Contact Information" />
 
-      <ul className="mt-2">
+      <ul className="mt-2 flex-auto">
         <li>
-          <strong>Location:</strong> {personal.location}
+          <strong>Location:</strong> {personal.location} <br />
+          {/* add phone and mail */}
+          <strong>Phone:</strong> {personal.phone} <br />
+          <strong>Email:</strong> {personal.mail}
         </li>
 
         {/* private access required */}

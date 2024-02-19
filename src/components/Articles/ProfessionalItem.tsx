@@ -9,12 +9,15 @@ const ProfessionalItem: React.FC<ProfessionalExperience> = ({
   body,
   endDate,
   organization,
+  image,
   startDate,
   title,
 }) => {
   return (
     <article className="border-t-2 border-neutral-6 py-6 first-of-type:border-none last-of-type:pb-0">
+      {/* <img src={image} className='bottom-10 ' width={"20%"} alt={"company"} /> */}
       <Heading className="text-balance" level={3}>
+        {/* company image */}
         <span className="rounded-md bg-neutral-12 px-2 text-neutral-1">
           {title}
         </span>

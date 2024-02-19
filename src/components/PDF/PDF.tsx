@@ -30,6 +30,7 @@ import { CirclePaintbrush } from './Icons/CirclePaintbrush';
 import { CircleUser } from './Icons/CircleUser';
 import { Star } from './Icons/Star';
 import { htmlRenderers } from './htmlRenderers';
+import Image from 'next/image';
 
 const theme = resumeConfig.pdfTheme;
 const domain = process.env.NEXT_PUBLIC_VERCEL_URL
@@ -277,6 +278,14 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Phone:</Text>
+                <Text>&nbsp;{personal.phone}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Email:</Text>
+                <Text>&nbsp;{personal.mail}</Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>

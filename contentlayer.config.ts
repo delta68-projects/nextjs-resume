@@ -26,10 +26,25 @@ export const Personal = defineDocumentType(() => ({
         'Your general location of residence, not your personal address',
       required: true,
     },
+    mail: {
+      type: 'string',
+      description: 'Your email',
+      required: true,
+    },
+    phone: {
+      type: 'string',
+      description: 'Your phone number',
+      required: true,
+    },
     twitterUsername: {
       type: 'string',
       description: 'Your Twitter username without the "@" symbol',
       required: false,
+    },
+    image: {
+      type: 'string',
+      description: 'Your image',
+      required: true,
     },
   },
 }));
@@ -69,6 +84,11 @@ export const ProfessionalExperience = defineDocumentType(() => ({
       type: 'string',
       description:
         'If you no longer work with this organization, provide a descriptor of when you ended the position',
+      required: false,
+    },
+    image: {
+      type: 'string',
+      description: 'Image of the company or organization',
       required: false,
     },
   },
