@@ -75,6 +75,11 @@ export const ProfessionalExperience = defineDocumentType(() => ({
       description: 'The name of the company or organization you worked with',
       required: true,
     },
+    location: {
+      type: 'string',
+      description: 'The name of the company or organization you worked with',
+      required: true,
+    },
     startDate: {
       type: 'string',
       description: 'A descriptor of when you started the position',
@@ -86,6 +91,7 @@ export const ProfessionalExperience = defineDocumentType(() => ({
         'If you no longer work with this organization, provide a descriptor of when you ended the position',
       required: false,
     },
+
     image: {
       type: 'string',
       description: 'Image of the company or organization',
@@ -113,7 +119,18 @@ export const Achievement = defineDocumentType(() => ({
     completionYear: {
       type: 'number',
       description: 'The year you earned your achievement',
-      required: true,
+      required: false,
+    },
+    startDate: {
+      type: 'string',
+      description: 'A descriptor of when you started the position',
+      required: false,
+    },
+    endDate: {
+      type: 'string',
+      description:
+        'If you no longer work with this organization, provide a descriptor of when you ended the position',
+      required: false,
     },
   },
 }));

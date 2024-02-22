@@ -1,7 +1,8 @@
 ---
 achievement: Bachelor's degree, Computer ScienceBachelor's degree,
 organization: UHasselt
-completionYear: 2013
+startDate: '2019'
+endDate: '2022'
 ---
 
 Grade: Cum laude

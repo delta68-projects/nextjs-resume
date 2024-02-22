@@ -30,9 +30,9 @@ const Page: React.FC<PageProps> = async ({ params }) => {
           <ContactInformation privateInformation={privateInformation} />
         </div>
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <Skills />
-        </div>
+        </div> */}
 
         <div className="mt-12">
           <Professional />

@@ -37,6 +37,10 @@ const Page: React.FC<PageProps> = () => {
         </div>
 
         <div className="mt-12">
+          <Professional />
+        </div>
+
+        <div className="mt-12">
           <AdditionalInfo />
         </div>
       </div>

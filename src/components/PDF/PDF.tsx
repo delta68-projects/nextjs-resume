@@ -364,7 +364,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
             ))}
           </View>
-          <View style={styles.section}>
+          {/*  <View style={styles.section}>
             <View style={styles.sectionHeading}>
               <CirclePaintbrush size={fontSizes.m} />
               <Text>{additionalInfo.title}</Text>
@@ -378,7 +378,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
             >
               {additionalInfo.body.html}
             </Html>
-          </View>
+          </View> */}
         </View>
       </Page>
     </Document>

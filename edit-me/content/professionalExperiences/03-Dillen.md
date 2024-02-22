@@ -4,6 +4,7 @@ organization: Dillen Technologies
 startDate: Jul 2022
 endDate: Oct 2022
 image:
+location: Belgium, Hasselt
 ---
 
 - Azure: Vlans, VPN, on-site, IAC, IAM, gateway API, ...

@@ -1,5 +1,5 @@
 import { Achievement } from '@content';
-import { faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Heading } from '../Heading/Heading';
@@ -9,6 +9,9 @@ const AchievementItem: React.FC<Achievement> = ({
   achievement,
   body,
   organization,
+  endDate,
+  startDate,
+  completionYear,
 }) => {
   return (
     <article className="border-t-2 border-neutral-6 py-6 first-of-type:border-none last-of-type:pb-0">
@@ -19,6 +22,22 @@ const AchievementItem: React.FC<Achievement> = ({
       <div className="mt-1 font-medium tracking-wide">
         <FontAwesomeIcon className="mr-2" icon={faUniversity} />
         {organization}
+      </div>
+
+      <div className="mt-1 font-medium tracking-wide">
+        {startDate && (
+          <>
+            <FontAwesomeIcon className="mr-2" icon={faCalendar} />
+            {startDate}–{endDate ? endDate : 'Current'}
+          </>
+        )}
+
+        {completionYear && (
+          <>
+            <FontAwesomeIcon className="mr-2" icon={faCalendar} />
+            {completionYear}
+          </>
+        )}
       </div>
 
       <Prose html={body.html} />
