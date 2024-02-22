@@ -10,7 +10,11 @@ import PlausibleProvider from 'next-plausible';
 
 const Page: React.FC<PageProps> = () => {
   return (
-    <PlausibleProvider domain="analytics.kscode.eu">
+    <PlausibleProvider
+      domain="resume.kscode.eu"
+      customDomain="analytics.kscode.eu/js/script.js"
+      selfHosted
+    >
       {' '}
       {/* TODO: make dynamic */}
       <Header />
