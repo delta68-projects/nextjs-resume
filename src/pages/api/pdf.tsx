@@ -18,12 +18,12 @@ const handler: NextApiHandler = async (req, res) => {
     privateInformation = allPrivateFields;
   }
 
-  // const pdfStream = await ReactPDF.renderToStream(
-  //   <PDF privateInformation={privateInformation} />,
-  // );
-  // res.setHeader('Content-Type', 'application/pdf');
-  // pdfStream.pipe(res);
-  // pdfStream.on('end', () => {});
+  const pdfStream = await ReactPDF.renderToStream(
+    <PDF privateInformation={privateInformation} />,
+  );
+  res.setHeader('Content-Type', 'application/pdf');
+  pdfStream.pipe(res);
+  pdfStream.on('end', () => {});
 };
 
 export default handler;

@@ -1,6 +1,6 @@
 ---
-achievement: 2nd Place UHCTF
-organization: Uhasselt
+achievement: Sucessfull TedxUhasselt Organizer
+organization: TedxUhasselt
 completionYear: 2022
 ---
 

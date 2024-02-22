@@ -1,6 +1,6 @@
 ---
-achievement: 2nd Place UHCTF
-organization: Uhasselt
+achievement: Algorithmic problem solving - Top 10 among PhD students and professionals in the industry
+organization: Vlaamse Programmeerwedstrijd (VPW)
 completionYear: 2022
 ---
 
