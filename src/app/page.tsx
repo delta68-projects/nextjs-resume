@@ -19,9 +19,11 @@ const Page: React.FC<PageProps> = () => {
       {/* TODO: make dynamic */}
       <Header />
       <div className="container">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-0 md:grid-cols-2">
+          <div>
+            <ContactInformation />
+          </div>
           <AboutMe />
-          <ContactInformation />
         </div>
 
         <div className="mt-12">
