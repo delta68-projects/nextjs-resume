@@ -11,8 +11,8 @@ import PlausibleProvider from 'next-plausible';
 const Page: React.FC<PageProps> = () => {
   return (
     <PlausibleProvider
-      domain="resume.kscode.eu"
-      customDomain="analytics.kscode.eu"
+      domain="https://resume.kscode.eu"
+      customDomain="https://analytics.kscode.eu"
       selfHosted={true}
     >
       {' '}
