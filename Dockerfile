@@ -3,10 +3,10 @@ FROM node:latest
 WORKDIR /app
 
 COPY package.json package.json
-COPY package-lock.json package-lock.json
 
-RUN npm install
+RUN npm install  --force
 
 COPY . .
 
-CMD [ "npm", "start" ]
+RUN npm run build
+CMD [ "npm","start"]
