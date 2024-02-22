@@ -6,12 +6,14 @@ import Professional from 'src/components/Articles/Professional';
 import Skills from 'src/components/Articles/Skills';
 import { Footer } from 'src/components/Footer/Footer';
 import { Header } from 'src/components/Header/Header';
+import PlausibleProvider from 'next-plausible';
 
 const Page: React.FC<PageProps> = () => {
   return (
-    <>
+    <PlausibleProvider domain="resume.kscode.eu">
+      {' '}
+      {/* TODO: make dynamic */}
       <Header />
-
       <div className="container">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <AboutMe />
@@ -34,9 +36,8 @@ const Page: React.FC<PageProps> = () => {
           <AdditionalInfo />
         </div>
       </div>
-
       <Footer />
-    </>
+    </PlausibleProvider>
   );
 };
 
