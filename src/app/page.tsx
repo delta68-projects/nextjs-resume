@@ -12,8 +12,8 @@ const Page: React.FC<PageProps> = () => {
   return (
     <PlausibleProvider
       domain="resume.kscode.eu"
-      customDomain="analytics.kscode.eu/js/script.js"
-      selfHosted
+      customDomain="analytics.kscode.eu"
+      selfHosted={true}
     >
       {' '}
       {/* TODO: make dynamic */}
