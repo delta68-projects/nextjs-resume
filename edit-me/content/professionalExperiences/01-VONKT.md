@@ -17,6 +17,6 @@ Development of a groundbreaking energy sharing platform, connecting businesses a
 - Data transformation
 - Data collection
 - Ideation
-- Project planning & management -
+- Project planning & management
 - MVPs
 - Microservices
