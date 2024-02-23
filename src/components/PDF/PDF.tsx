@@ -17,6 +17,7 @@ import { contrastColor } from '../../helpers/colorContrast';
 import { getAccentColor, getNeutralColor } from '../../helpers/colors';
 import {
   fullName,
+  sortedAchievement_s,
   sortedAchievements,
   sortedProfessionalExperiences,
 } from '../../helpers/utils';
@@ -347,7 +348,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
           <View style={styles.section}>
             <View style={styles.sectionHeading}>
               <CircleGraduationCap size={fontSizes.m} />
-              <Text>Achievements</Text>
+              <Text>Education</Text>
             </View>
             {sortedAchievements.map((achievement) => (
               <View key={achievement._id}>
@@ -358,6 +359,38 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                   <BuildingColumns size={fontSizes.xxs} />
                   <Text style={styles.itemSubheading}>
                     {achievement.organization}
+                  </Text>
+                </View>
+                <View style={styles.itemSubheadingRow}>
+                  <Calendar size={fontSizes.xxs} />
+                  <Text style={styles.itemSubheading}>
+                    {achievement.startDate} - {achievement.endDate}
+                  </Text>
+                </View>
+                <Html {...htmlProps}>{achievement.body.html}</Html>
+              </View>
+            ))}
+          </View>
+          <View style={styles.section}>
+            <View style={styles.sectionHeading}>
+              <CircleGraduationCap size={fontSizes.m} />
+              <Text>Achievements</Text>
+            </View>
+            {sortedAchievement_s.map((achievement) => (
+              <View key={achievement._id}>
+                <View style={styles.itemHeading}>
+                  <Text style={styles.bold}>{achievement.achievement}</Text>
+                </View>
+                <View style={styles.itemSubheadingRow}>
+                  <BuildingColumns size={fontSizes.xxs} />
+                  <Text style={styles.itemSubheading}>
+                    {achievement.organization}
+                  </Text>
+                </View>
+                <View style={styles.itemSubheadingRow}>
+                  <Calendar size={fontSizes.xxs} />
+                  <Text style={styles.itemSubheading}>
+                    {achievement.completionYear}
                   </Text>
                 </View>
                 <Html {...htmlProps}>{achievement.body.html}</Html>

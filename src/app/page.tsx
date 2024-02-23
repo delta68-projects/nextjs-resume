@@ -7,6 +7,7 @@ import Skills from 'src/components/Articles/Skills';
 import { Footer } from 'src/components/Footer/Footer';
 import { Header } from 'src/components/Header/Header';
 import PlausibleProvider from 'next-plausible';
+import Achievements_ from 'src/components/Articles/Achievements_';
 
 const Page: React.FC<PageProps> = () => {
   return (
@@ -20,10 +21,10 @@ const Page: React.FC<PageProps> = () => {
       <Header />
       <div className="container">
         <div className="grid grid-cols-1 gap-0 md:grid-cols-2">
-          <div>
+          <AboutMe />
+          <div className="ml-40">
             <ContactInformation />
           </div>
-          <AboutMe />
         </div>
 
         <div className="mt-12">
@@ -39,7 +40,7 @@ const Page: React.FC<PageProps> = () => {
         </div>
 
         <div className="mt-12">
-          <Professional />
+          <Achievements_ />
         </div>
 
         <div className="mt-12">

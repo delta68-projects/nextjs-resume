@@ -135,6 +135,30 @@ export const Achievement = defineDocumentType(() => ({
   },
 }));
 
+export const Achievement_ = defineDocumentType(() => ({
+  name: 'Achievement_',
+  filePathPattern: 'achievements_/*.md',
+  fields: {
+    achievement: {
+      type: 'string',
+      description:
+        'The name of the degree or certification of your achievement',
+      required: true,
+    },
+    organization: {
+      type: 'string',
+      description:
+        'The name of the school, organization, or program you earned your achievement from',
+      required: true,
+    },
+    completionYear: {
+      type: 'number',
+      description: 'The year you earned your achievement',
+      required: false,
+    },
+  },
+}));
+
 export const AdditionalInfo = defineDocumentType(() => ({
   name: 'AdditionalInfo',
   filePathPattern: 'additionalInfo.md',
@@ -169,5 +193,6 @@ export default makeSource({
     Achievement,
     AdditionalInfo,
     PrivateField,
+    Achievement_,
   ],
 });

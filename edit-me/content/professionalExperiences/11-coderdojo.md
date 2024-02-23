@@ -5,6 +5,4 @@ startDate: Sep 2022
 location: Belgium
 ---
 
-- Partnerships
-- Event planning
-- Marketing
+Helping childeren to learn coding and building IOT dings
