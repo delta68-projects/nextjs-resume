@@ -22,9 +22,7 @@ const Page: React.FC<PageProps> = () => {
       <div className="container">
         <div className="grid grid-cols-1 gap-0 md:grid-cols-2">
           <AboutMe />
-          <div className="ml-40">
-            <ContactInformation />
-          </div>
+          <ContactInformation />
         </div>
 
         <div className="mt-12">
