@@ -1,0 +1,163 @@
+---
+title: Software engineering
+---
+
+
+Network & Security:
+
+    Networking Architecture:
+
+        OSI model
+        TCP/IP stack
+        Routing protocols (e.g., OSPF, BGP)
+        Network topologies (e.g., star, mesh, bus)
+        Switching and Routing
+
+    Network and Application Security:
+
+        Cryptography
+        Firewall configurations and types
+        Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)
+        Secure Socket Layer (SSL) / Transport Layer Security (TLS)
+        Socket programing
+
+    Ethical Hacking:
+
+        Penetration testing methodologies (e.g., white-box, black-box, gray-box)
+        Common vulnerabilities and exploits (e.g., SQL injection, XSS)
+        Web exploitation
+        Tools (e.g., Metasploit, Nmap, Wireshark)
+
+    Azure:
+
+        Azure services overview (e.g., Azure Virtual Machines, Azure App Service)
+        Azure networking (e.g., Azure Virtual Network, Azure Load Balancer)
+        Identity and access management in Azure (e.g., Azure Active Directory)
+
+    DevOps:
+
+        Continuous Integration (CI) and Continuous Deployment (CD) concepts
+        Infrastructure as Code (IaC) tools (e.g., Terraform, Bicep)
+        Containerization (e.g., Docker) and orchestration (e.g., Kubernetes)
+
+    C++:
+
+        Object-oriented programming concepts (e.g., classes, inheritance, polymorphism)
+        Memory management (e.g., stack vs heap, smart pointers)
+        Standard Template Library (STL) components (e.g., vectors, maps, algorithms)
+
+    Distributed Computing:
+
+        Parallel computing paradigms (e.g., shared memory, distributed memory)
+        Distributed systems architectures (e.g., client-server, peer-to-peer)
+        Message Passing Interface (MPI) for inter-process communication
+        GPU parallalization, CUDA
+
+Data Science:
+
+    Machine Learning:
+
+        Supervised, unsupervised, and reinforcement learning
+        Natual lang process, Neuralnet works
+        Model evaluation metrics (e.g., accuracy, precision, recall)
+        Ensemble methods (e.g., random forests, gradient boosting)
+
+    LLM (Large Language Models):
+
+        Training methodologies for large language models
+        Fine-tuning and transfer learning techniques
+        Ethical considerations in deploying LLMs
+
+    Python, Rust:
+
+        Syntax and basic constructs
+        Memory management in Rust (e.g., ownership, borrowing)
+        Python libraries for data science (e.g., NumPy, pandas)
+
+    HuggingFaces:
+
+        Transformer-based models (e.g., BERT, GPT)
+        Natural Language Processing (NLP) tasks (e.g., text classification, named entity recognition)
+        Fine-tuning pre-trained models with Hugging Face's Transformers library
+
+    PySpark, Kafka, Pandas:
+
+        PySpark for distributed data processing
+        Kafka for real-time streaming data
+        Pandas for data manipulation and analysis in Python
+
+    Serverless ML:
+
+        Deploying machine learning models as serverless functions
+        AWS Lambda, Azure Functions, and Google Cloud Functions for serverless computing
+        Scaling and cost considerations in serverless ML deployments
+
+    PyTorch, TensorFlow:
+
+        Deep learning frameworks basics
+        Building neural networks (e.g., layers, activations, loss functions)
+        GPU acceleration and distributed training in PyTorch and TensorFlow
+
+Software Engineering:
+
+    Node.js, Next.js:
+
+        Event-driven architecture in Node.js
+        Building server-side applications with Node.js
+        Server-side rendering with Next.js
+
+    Django, Flask:
+
+        MVC architecture in Django
+        RESTful API development with Flask
+        Authentication and authorization in web frameworks
+
+    CI/CD ~ Ansible, Jenkins:
+
+        Continuous Integration and Continuous Deployment pipelines
+        Configuration management with Ansible
+        Automation of build, test, and deployment processes with Jenkins
+
+    Own Compiler for GoLang:
+
+        Lexical analysis and parsing techniques
+        Intermediate representation and code generation
+        Optimization techniques in compiler design
+
+    Own Game Engine ~ OpenGL:
+
+        Basics of computer graphics (e.g., rendering pipeline)
+        OpenGL API fundamentals
+        Scene graph and rendering techniques in game engines
+
+    RDF-XML, SOLID-pods:
+
+        Resource Description Framework (RDF) data model
+        RDF serialization formats (e.g., RDF-XML)
+        Semantic Web technologies and Linked Data principles
+
+Management
+- Software Engineering Management:
+  - Software development life cycle (SDLC) methodologies (e.g., Waterfall, Agile, DevOps)
+  - Team organization and roles (e.g., developers, testers, product owners)
+  - Requirements elicitation and management processes
+
+- Scrum:
+  - Scrum framework fundamentals (e.g., roles, events, artifacts)
+  - Sprint planning, review, retrospective
+  - Agile principles and values
+
+- Project Leadership:
+  - Leadership styles and approaches
+  - Team motivation and morale
+  - Conflict resolution techniques
+
+- Idea to Product:
+  - Product management concepts (e.g., market analysis, user personas)
+  - MVP (Minimum Viable Product) development
+  - Product roadmap and iteration planning
+
+- Kanban:
+  - Kanban principles and practices
+  - Visual board setup and maintenance
+  - Work in progress (WIP) limits and flow optimization

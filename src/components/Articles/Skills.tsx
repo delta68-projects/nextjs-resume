@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
     <article>
       <SectionHeading icon={faCheck} level={3} text="Skills &amp; Expertise" />
 
-      <div className="mt-2 grid grid-flow-row gap-6 lg:grid-flow-col">
+      <div className="mt-2 grid  gap-6 md:grid-cols-2 lg:grid-cols-2">
         {allSkills.map((skill, skillIndex) => (
           <div key={skill._id}>
             <Heading level={4}>
@@ -20,7 +20,6 @@ const Skills: React.FC = () => {
                 {skill.title}
               </div>
             </Heading>
-
             <Prose className="text-neutral-11" html={skill.body.html} />
           </div>
         ))}

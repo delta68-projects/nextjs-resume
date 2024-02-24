@@ -10,7 +10,7 @@ Conducting research on the utilization of Large Language Models (LLMs) in medica
 
 Subsequently, a human-in-the-loop dashboard is constructed to enable domain specialists to oversee and control the output behavior.
 
-- OpenAI, GPT-4
+- OpenAI API, GPT-4
 - LLAMA, Mistral 7B, Mixtral 7XB
 - PyTorch
 - Hugging Face Transformers
