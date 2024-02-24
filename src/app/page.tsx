@@ -9,12 +9,15 @@ import { Header } from 'src/components/Header/Header';
 import PlausibleProvider from 'next-plausible';
 import Achievements_ from 'src/components/Articles/Achievements_';
 
+/**
+ * Page component to display the resume content
+ */
 const Page: React.FC<PageProps> = () => {
   return (
     <PlausibleProvider
       domain="https://resume.kscode.eu"
       customDomain="https://analytics.kscode.eu"
-      selfHosted={true}
+      selfHosted={true} // indicates that the analytics is self-hosted
     >
       {' '}
       {/* TODO: make dynamic */}
