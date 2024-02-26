@@ -19,20 +19,29 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
         <img
           src="https://utfs.io/f/a2558654-458b-4dd1-8210-4be45aa720d6-b39uky.jpg"
           alt=""
-          width={250}
+          width={300}
         />
       </div>
 
       <ul className="mt-2 flex-auto">
         <li>
-          <strong>Location:</strong> {personal.location} <br />
+          <strong>Location:</strong> {personal.location}
+          <br />
           {/* Make phone clickable */}
           <strong>Phone:</strong>{' '}
           <a href={`tel:${personal.phone}`}>{personal.phone}</a>
           <br />
           {/* Make email clickable */}
           <strong>Email:</strong>{' '}
-          <a href={`mailto:${personal.mail}`}>{personal.mail}</a>
+          <a href={`mailto:${personal.mail}`} target="_blank">
+            {personal.mail}
+          </a>
+          <br />
+          <br />
+          <strong>Calendly:</strong>{' '}
+          <a href={`${personal.calendly}`} target="_blank">
+            {personal.calendly}
+          </a>
         </li>
 
         {/* private access required */}
