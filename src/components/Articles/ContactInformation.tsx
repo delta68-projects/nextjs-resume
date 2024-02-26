@@ -38,10 +38,10 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
           </a>
           <br />
           <br />
-          <strong>Calendly:</strong>{' '}
+          {/* <strong>Calendly:</strong>{' '}
           <a href={`${personal.calendly}`} target="_blank">
             {personal.calendly}
-          </a>
+          </a> */}
         </li>
 
         {/* private access required */}

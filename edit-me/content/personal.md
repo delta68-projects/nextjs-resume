@@ -6,7 +6,7 @@ location: Belgium
 mail: 'kiran.consulting.ai@gmail.com'
 phone: '+32 488 802 851'
 image: https://media.licdn.com/dms/image/C4E03AQFSbBoz-Ua98w/profile-displayphoto-shrink_800_800/0/1661151976955?e=2147483647&v=beta&t=9zYO9w9luOLTNTe55pU-Mnf6yUsb2HUdEYs6xLU3zfQ
-calendly: https://calendly.com/kiran-pal-singh/
+# calendly: https://calendly.com/kiran-pal-singh/
 ---
 
 Starting my coding journey at just 11 years old with the iconic "Hello, World!" program in Python ignited a passion within me for the magic of code. Over the years, that spark has grown into a roaring flame of expertise and enthusiasm, particularly in the realms of AI, networking, and cybersecurity.

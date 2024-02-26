@@ -8,10 +8,12 @@ import { Footer } from 'src/components/Footer/Footer';
 import { Header } from 'src/components/Header/Header';
 import PlausibleProvider from 'next-plausible';
 import Achievements_ from 'src/components/Articles/Achievements_';
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import SimpleSlider from 'src/components/Articles/Spinner';
 
-/**
- * Page component to display the resume content
- */
 const Page: React.FC<PageProps> = () => {
   return (
     <PlausibleProvider
@@ -27,6 +29,7 @@ const Page: React.FC<PageProps> = () => {
           <AboutMe />
           <ContactInformation />
         </div>
+        {/* <SimpleSlider/> */}
 
         <div className="mt-12">
           <Skills />
