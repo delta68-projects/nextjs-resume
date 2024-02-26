@@ -1,6 +1,6 @@
 ---
-title: Cloud Engineer
-organization: KScode
+title: Cloud Computing Infrastructure
+organization: KSCODE
 startDate: Sep 2023
 image: https://blog.jostle.me/hubfs/7-reasons-why-collaboration-is-important-16x9.png
 location: Belgium, Hasselt

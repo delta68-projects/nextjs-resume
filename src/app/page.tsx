@@ -23,7 +23,7 @@ const Page: React.FC<PageProps> = () => {
       {/* TODO: make dynamic */}
       <Header />
       <div className="container">
-        <div className="grid grid-cols-1 gap-0 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           <AboutMe />
           <ContactInformation />
         </div>

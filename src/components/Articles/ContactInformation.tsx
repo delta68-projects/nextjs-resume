@@ -26,9 +26,13 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
       <ul className="mt-2 flex-auto">
         <li>
           <strong>Location:</strong> {personal.location} <br />
-          {/* add phone and mail */}
-          <strong>Phone:</strong> {personal.phone} <br />
-          <strong>Email:</strong> {personal.mail}
+          {/* Make phone clickable */}
+          <strong>Phone:</strong>{' '}
+          <a href={`tel:${personal.phone}`}>{personal.phone}</a>
+          <br />
+          {/* Make email clickable */}
+          <strong>Email:</strong>{' '}
+          <a href={`mailto:${personal.mail}`}>{personal.mail}</a>
         </li>
 
         {/* private access required */}

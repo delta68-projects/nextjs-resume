@@ -46,6 +46,11 @@ export const Personal = defineDocumentType(() => ({
       description: 'Your image',
       required: true,
     },
+    calendly: {
+      type: 'string',
+      description: 'Your image',
+      required: false,
+    },
   },
 }));
 
@@ -78,12 +83,12 @@ export const ProfessionalExperience = defineDocumentType(() => ({
     location: {
       type: 'string',
       description: 'The name of the company or organization you worked with',
-      required: true,
+      required: false,
     },
     startDate: {
       type: 'string',
       description: 'A descriptor of when you started the position',
-      required: true,
+      required: false,
     },
     endDate: {
       type: 'string',

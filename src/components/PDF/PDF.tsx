@@ -266,13 +266,6 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
           <View style={styles.sidebarContent}>
             <View style={styles.section}>
               <View style={styles.sectionHeadingNonHTML}>
-                <CircleUser size={fontSizes.m} />
-                <Text>About Me</Text>
-              </View>
-              <Html {...htmlProps}>{personal.body.html}</Html>
-            </View>
-            <View style={styles.section}>
-              <View style={styles.sectionHeadingNonHTML}>
                 <CircleIdCard size={fontSizes.m} />
                 <Text>Contact Information</Text>
               </View>
@@ -304,11 +297,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 <View key={skill._id}>
                   <View style={styles.itemHeading}>
                     <View style={styles.sectionHeadingStars}>
-                      {Array.from(Array(allSkills.length - skillIndex)).map(
-                        (star, starIndex) => (
-                          <Star key={starIndex} size={fontSizes.xxs} />
-                        ),
-                      )}
+                      <Star key={1} size={fontSizes.xxs} />
                     </View>
                     <Text style={styles.bold}>{skill.title}</Text>
                   </View>
@@ -319,6 +308,13 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
           </View>
         </View>
         <View style={styles.main}>
+          <View style={styles.section}>
+            <View style={styles.sectionHeadingNonHTML}>
+              <CircleUser size={fontSizes.m} />
+              <Text>About Me</Text>
+            </View>
+            <Html {...htmlProps}>{personal.body.html}</Html>
+          </View>
           <View style={styles.section}>
             <View style={styles.sectionHeading}>
               <CircleBriefcase size={fontSizes.m} />
