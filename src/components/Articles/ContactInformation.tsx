@@ -28,9 +28,9 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
           <strong>Location:</strong> {personal.location}
           <br />
           {/* Make phone clickable */}
-          <strong>Phone:</strong>{' '}
+          {/* <strong>Phone:</strong>{' '}
           <a href={`tel:${personal.phone}`}>{personal.phone}</a>
-          <br />
+          <br /> */}
           {/* Make email clickable */}
           <strong>Email:</strong>{' '}
           <a href={`mailto:${personal.mail}`} target="_blank">

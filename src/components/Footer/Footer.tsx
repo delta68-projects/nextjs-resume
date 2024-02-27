@@ -29,7 +29,10 @@ export const Footer: React.FC = () => {
         )}
 
         <div className="mt-6">
-          Copyright ©{new Date().getFullYear()} {fullName}
+          Disclaimer: Not all projects and experiences are displayed on this
+          site due to non-disclosure agreements (NDAs) and sensitive business
+          components. Copyright ©{new Date().getFullYear()} {fullName}
+          <br />
         </div>
       </div>
     </footer>
