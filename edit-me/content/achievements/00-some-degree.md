@@ -4,5 +4,3 @@ organization: UHasselt
 startDate: '2019'
 endDate: '2022'
 ---
-
-Grade: Cum laude
