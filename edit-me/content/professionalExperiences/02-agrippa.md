@@ -1,6 +1,6 @@
 ---
 title: Data Scientist & MLops
-organization: Agrippa
+organization: Agrippa [Consultant]
 startDate: Jul 2023
 endDate: Sep 2023
 image: https://blog.jostle.me/hubfs/7-reasons-why-collaboration-is-important-16x9.png
