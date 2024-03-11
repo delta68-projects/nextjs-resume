@@ -5,4 +5,4 @@ startDate: Sep 2022
 location: Belgium
 ---
 
-Helping childeren to learn coding and building IOT dings
+Helping children to learn coding and building IOT things
