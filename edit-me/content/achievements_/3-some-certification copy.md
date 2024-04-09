@@ -4,4 +4,4 @@ organization: Vlaamse Programmeerwedstrijd (VPW)
 completionYear: 2022
 ---
 
-[Website](https://www.vlaamseprogrammeerwedstrijd.be)
+- [Website](https://www.vlaamseprogrammeerwedstrijd.be)

@@ -1,12 +1,10 @@
 ---
 title: Cloud Computing Infrastructure
-organization: KSCODE [Consultant]
+organization: KSCODE [Home Playground]
 startDate: Sep 2023
 image: https://blog.jostle.me/hubfs/7-reasons-why-collaboration-is-important-16x9.png
 location: Belgium, Hasselt
 ---
-
-[Killer open source cloud setup]
 
 Applying networking and cybersecurity expertise to create a personal cloud services platform, prioritizing security.
 
