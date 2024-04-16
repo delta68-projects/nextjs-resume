@@ -41,4 +41,4 @@ In my pursuit of mastery, I've always believed in learning from the best. I've b
 Recognition as one of the top 10 algorithmic minds in Belgium, coupled with our achievement of reaching the top 10% out of 282 teams in the finals of Belgium's CTF challenge in cybersecurity, provides a glimpse of the expertise and dedication you can expect when collaborating with me.
 \
 \
-My ultimate goal remains unchanged: leveraging my expertise to propel businesses efficiently towards their goals.
+If you're looking for someone who not only brings expertise to the table but also possesses an insatiable curiosity and drive to excel, then look no further. Let's collaborate and create something extraordinary together.
