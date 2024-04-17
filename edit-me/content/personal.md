@@ -29,7 +29,7 @@ In the past year, our team has been recognized among the top 10 algorithmic mind
 
 My overarching goal remains steadfast: leveraging my expertise to propel businesses efficiently towards their objectives. -->
 
-My name is Kiran, and I thrive on collaborating with clients to overcome significant business challenges and drive revenue growth. I specialize in optimizing day-to-day operations, utilizing cutting-edge technologies such as machine learning and the latest advancements to keep businesses ahead of the curve.
+My name is Kiran, and I have a master's degree in computer science with specialization in data science and computer networking/security. I thrive on collaborating with clients to overcome significant business challenges and drive revenue growth. I specialize in optimizing day-to-day operations, utilizing cutting-edge technologies such as machine learning and the latest advancements to keep businesses ahead of the curve.
 \
 \
 For example, I recently aided a startup in securing crucial initial funding by developing a prototype that positioned them as leaders in their industry. Throughout my career, I've worked with numerous clients in software engineering, DevOps, machine learning, and system architecture, constantly honing my skills and broadening my expertise.
