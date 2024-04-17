@@ -1,6 +1,6 @@
 ---
 achievement: Winner Techscape 2024
-organization: AE.be
+organization: Adapt & Enable (AE)
 completionYear: 2024
 ---
 
