@@ -1,6 +1,6 @@
 ---
 title: Data Scientist & Backend Engineer
-organization: VONKT [Consultant]
+organization: VONKT [Consultant - Freelance]
 startDate: Sep 2023
 endDate: Mar 2024
 image: https://blog.jostle.me/hubfs/7-reasons-why-collaboration-is-important-16x9.png
