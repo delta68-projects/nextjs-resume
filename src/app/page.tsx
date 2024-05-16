@@ -13,6 +13,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SimpleSlider from 'src/components/Articles/Spinner';
+import Head from 'next/head';
 
 const Page: React.FC<PageProps> = () => {
   return (
@@ -24,6 +25,13 @@ const Page: React.FC<PageProps> = () => {
       {' '}
       {/* TODO: make dynamic */}
       <Header />
+      <Head>
+        <script
+          defer
+          data-domain="resume.kscode.eu"
+          src="https://analytics.kscode.eu/js/script.js"
+        ></script>
+      </Head>
       <div className="container">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           <AboutMe />
